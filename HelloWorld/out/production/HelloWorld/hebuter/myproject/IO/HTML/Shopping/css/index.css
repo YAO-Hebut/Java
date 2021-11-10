@@ -1,0 +1,260 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?a1pw1f');
+    src:  url('../fonts/icomoon.eot?a1pw1f#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?a1pw1f') format('truetype'),
+      url('../fonts/icomoon.woff?a1pw1f') format('woff'),
+      url('../fonts/icomoon.svg?a1pw1f#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+.main{
+    width: 980px;
+    height: 455px;
+    margin-left:220px;
+}
+.focus{
+    float: left;
+    width: 721px;
+    height: 455px;
+}
+.newsflash{
+    float:right;
+    width: 250px;
+    height: 455px;
+}
+.news{
+    height: 165px;
+    border:1px solid #e4e4e4;
+}
+.lifeservice{
+    overflow:hidden;
+    height: 209px;
+    border:1px solid #e4e4e4;
+    border-top: 0;
+
+}
+.bargin{
+    margin-top: 5px;
+}
+.news .head{
+    height: 33px;
+    width: 100%;
+    border-bottom: 1px dotted #e4e4e4;
+    line-height: 33px;
+}
+.news .head h5{
+    float: left;
+    margin-left: 10px;
+    font-size:15px;
+}
+.news .head a{
+    float: right;
+    margin-right: 3px;
+    font-size:14px;
+}
+.news .head a::after{
+    content: '\e901';
+    font-family: 'icomoon';
+}
+.news .body ul li{
+height: 24px;
+line-height: 24px;
+font-size:14px;
+margin-left: 5px;
+margin-top: 2px;
+}
+.lifeservice ul{
+    width: 252px;
+}
+.lifeservice ul li{
+    position:relative;
+    float: left;
+    width: 63px;
+    height: 71px;
+    border-right:1px solid #e4e4e4;
+    border-bottom:1px solid #e4e4e4;
+    text-align: center;
+}
+.lifeservice ul li i{
+    display:inline-block;
+    width: 24px;
+    height: 28px;
+    margin-top: 12px;
+}
+.lifeservice .gift{
+    position:absolute;
+    right: 0;
+    top: -6px;
+    height: 10px;
+    width: 10px;
+} 
+
+
+
+
+/* recom模块制作 start */
+.recom{
+    height: 163px;
+    margin-top: 12px;
+}
+.recom_hd {
+    float: left;
+    width: 208px;
+    height: 163px;
+}
+.recom_hd img{
+    width: 208px;
+    height: 163px;
+}
+.recom_bd{
+    float: left;
+}
+.recom_bd ul li{
+    position: relative;
+    float: left;
+}
+
+.recom_bd ul li:nth-child(-n+3)::after{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    content: '';
+    width: 1px;
+    height: 145px;
+    background-color:#ddd;
+}
+.recom_bd ul li img{
+    width: 248px;
+    height: 163px;
+}
+/* recom模块制作 end */
+
+
+
+
+/* 猜你喜欢模块 start */
+.like{
+    margin-top:35px;
+    height: 255px;
+}
+.like_hd{
+    height: 30px;
+}
+
+.like_hd h3{
+    display: inline;
+    float: left;
+    font-size:18px;
+}
+
+.like_hd .change a{
+float: right;
+}
+
+.like_hd .change a::after{
+    content: '\ea2e';
+    font-family: 'icomoon';
+}
+
+.like_bd ul{
+    height: 225px;
+    border: 1px solid #ccc;
+}
+
+.like_bd ul li{
+    position: relative;
+    float: left;
+    height: 223px;
+    width: 199px;
+}
+.like_bd ul li img{
+    width: 100%;
+    height: 100%;
+    margin-left: 1px;
+}
+.like_bd ul li:nth-child(-n+5)::after{
+    position: absolute;
+    top: 13px;
+    right: 0;
+    content: '';
+    width: 1px;
+    height: 200px;
+    background-color:#ddd;
+}
+/* 猜你喜欢模块 end */
+
+
+
+
+/* 楼层模块制作 start */
+.floor{
+    margin-top: 30px;
+}
+.box_hd{
+    height: 30px;
+    border-bottom:2px solid #66bbff ;
+}
+.box_hd h3{
+    float: left;
+    font-size:18px;
+    color:#66bbff;
+    font-weight: 400;
+}
+.tab_list{
+    float: right;
+    line-height: 30px;
+}
+.tab_list ul li{
+    float: left;
+}
+
+.tab_list ul li a{
+    margin:0 15px;
+}
+
+.box_bd{
+    height: 361px;
+}
+
+.tab_content .tab_list_item>div{
+    float: left;
+    height: 361px;
+}
+
+.col_210{
+    width: 210px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+.col_210 ul{
+    margin-left:12px;
+}
+.col_210 ul li{
+    float: left;
+    width: 85px;
+    height: 34px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    line-height: 34px;
+    margin-right: 10px;
+}
+.col_210 img{
+    width: 196px;
+    height: 261px;
+
+}
+
+.col_329{
+    width: 329px;
+}
+
+.col_221{
+    width: 221px;
+}
+
+.col_219{
+    width: 219px;
+}
+/* 楼层模块制作 end */

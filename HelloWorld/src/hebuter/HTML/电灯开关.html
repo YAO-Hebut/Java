@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>电灯开关</title>
+</head>
+<body>
+<img id="lamp" src="images/off.gif">
+<input type="button" id="back" value="后退">
+
+<script>
+    var lamp = document.getElementById("lamp");
+    var flag = false;
+
+    lamp.onclick = function () {
+        if (flag) {
+            lamp.src = "images/off.gif";
+            flag = false;
+        } else {
+            lamp.src = "images/on.gif";
+            flag = true;
+        }
+    }
+
+    var back = document.getElementById("back");
+    back.onclick = function () {
+        history.go(-1);
+    }
+</script>
+</body>
+</html>

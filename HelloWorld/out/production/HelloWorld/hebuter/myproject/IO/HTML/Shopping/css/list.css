@@ -1,0 +1,88 @@
+.nav{
+    overflow: hidden;
+}
+.sk{
+    position: absolute;
+    left: 325px;
+    top:55px;
+    border-left:1px solid #fff;
+    padding:0px 0 0 8px;
+}
+.sk img{
+    width: 45px;
+    height: 20px;
+}
+.sk_list{
+    float: left;
+}
+.sk_list ul li{
+    float: left;
+    line-height: 45px;
+    font-size:18px;
+    font-weight: 700;
+}
+.sk_list ul li a{
+    padding:0 30px;
+}
+
+.sk_con{
+    float: left;
+}
+
+.sk_con ul li{
+    float: left;
+    line-height: 47px;
+    font-size:14px;
+}
+.sk_con ul li a{
+    padding:0 20px;
+}
+.sk_con ul li:last-child a::after{
+    content: '\e904';
+    font-family: 'icomoon';
+}
+.sk_hd img{
+    height: 165px;
+    width: 1200px;
+}
+
+
+
+.sk_bd li{
+    float: left;
+    width: 290px;
+    height: 460px;
+    margin-right:12px;
+    margin-bottom: 5px;
+    border:1px solid #444444;
+}
+.sk_bd li:nth-child(4n){
+    margin-right:0;
+}
+.sk_bd li img{
+    width: 290px;
+    height: 350px;
+}
+.sk_bd li p{
+    text-align: center;
+    font-size:16px;
+}
+.price{
+    margin: 5px 40px 0;
+    color:#444444;
+    font-size:20px;
+    text-align: center;
+}
+.preprice{
+    margin: 5px 0 0 0;
+    color:gray;
+    font-size: 10px;
+    text-align: center;
+}
+.buynow input{
+    height: 56px;
+    width: 290px;
+    background-color: #323233;
+    color:#fff;
+    font-size:18px;
+}

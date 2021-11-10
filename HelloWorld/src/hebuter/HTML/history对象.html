@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>history对象</title>
+</head>
+<body>
+<input type="button" id="forward" value="前进">
+<input type="button" id="length" value="历史网页个数">
+<a href="电灯开关.html">电灯开关</a>
+
+<script>
+    var forward = document.getElementById("forward");
+    var btn = document.getElementById("length");
+    forward.onclick = function () {
+        history.go(1);
+    }
+    btn.onclick = function () {
+        var length = history.length;
+        alert(length);
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Case/Case.iml" filepath="$PROJECT_DIR$/Case/Case.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HelloWorld/HelloWorld.iml" filepath="$PROJECT_DIR$/HelloWorld/HelloWorld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaEE/JavaEE.iml" filepath="$PROJECT_DIR$/JavaEE/JavaEE.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Travel.iml" filepath="$PROJECT_DIR$/Travel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Travel/travel.iml" filepath="$PROJECT_DIR$/Travel/travel.iml" />
+    </modules>
+  </component>
+</project>

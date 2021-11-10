@@ -1,0 +1,168 @@
+.w{
+    width: 1200px;
+    margin:0 auto;
+}
+.header{
+    height: 105px;
+    background-color: #323233;
+    border-bottom: 2px solid #000;
+}
+.header img{
+    padding-left: 9px;
+    padding-top:44px;
+}
+
+
+
+
+
+.register_area{
+    height: 522px;
+    border:2px solid #ccc;
+    margin-top:20px;
+}
+.register_area h3{
+    padding-left: 10px;
+    height: 42px;
+    line-height: 42px;
+    background-color: #666;
+    border-bottom: 1px solid #ccc;
+    color:#fff;
+    font-size:18px;
+}
+.login{
+    float: right;
+    font-size:14px;
+    padding-right:5px;
+}
+.login a{
+    color:#66bbff;
+}
+
+.reg_fom{
+    width: 600px;
+    margin:50px auto 0;
+}
+.reg_fom ul li{
+    margin-bottom: 20px;
+}
+.reg_fom label{
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    font-size: 16px;
+}
+.reg_fom .inp{
+    width: 242px;
+    height: 37px;
+    border:1px solid #ccc;
+}
+.error{
+    color:crimson
+}
+.error img{
+    width: 20px;
+    height: 20px;
+    vertical-align: center;
+    margin-top:-2px;
+}
+
+.success{
+    color:green;
+}
+.success img{
+    width: 20px;
+    height: 20px;
+    vertical-align: center;
+    margin-top:-2px;
+}
+
+.safe{
+    padding-left:160px;
+    font-size: 14px;
+}
+
+.safe em{
+    padding:0 12px;
+}
+.ruo{
+    background-color:#f21b00;
+    color:#fff;
+}
+.zhong{
+    background-color:#30a238;
+    color:#fff;
+}
+.qiang{
+    background-color:#ff9200;
+    color:#fff;
+}
+
+.agree{
+    padding-left:95px;
+}
+.agree input{
+    vertical-align: middle;
+    margin-top:-2px;
+}
+.agree  a{
+    color:#66bbff;
+}
+.btn{
+    margin-left:127px;
+    width: 200px;
+    height: 44px;
+    background-color: #666;
+    color:#fff;
+    font-size:18px;
+}
+
+
+
+
+
+
+
+
+/* fotter底部模块制作 start */
+.mod_help{
+    height: 185px;
+    border-bottom:1px solid #ccc;
+    padding-top: 25px;
+    padding-left: 50px;
+
+}
+.mod_help dl{
+    float: left;
+    width: 333px;
+}
+
+.mod_help dl dd{
+    font-size: 16px;
+    font-weight:700;
+    margin-bottom: 18px;
+}
+.mod_help dl dt{
+    margin-bottom: 5px;
+}
+.mod_help dl dd:last-child{
+    margin-bottom: 0px;
+}
+.mod_help dl:last-child{
+    width:80px;
+    text-align: center;
+}
+
+
+
+
+.mod_copyright .links{
+    text-align: center;
+    margin-top:15px;
+    margin-bottom:10px;
+}
+.mod_copyright .copyright{
+    text-align: center;
+    line-height: 15px;
+}
+/* fotter底部模块制作 end */
